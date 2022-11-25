@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.125rem;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217deg, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.card__wrapper {
+  margin: 1.875rem;
+}
+
+.card {
+  max-width: 20rem;
+  padding: 1.4rem;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 0.6rem;
+}
+.card .card__image {
+  position: relative;
+}
+.card .card__image img {
+  border-radius: 0.6rem;
+}
+.card .card__image div {
+  position: absolute;
+  top: 0;
+  background-color: hsla(178deg, 100%, 50%, 0.4);
+  width: 100%;
+  height: calc(100% - 4px);
+  opacity: 0;
+}
+.card .card__image div img {
+  position: absolute;
+  width: 20%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.card .card__image div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.card h1 {
+  color: hsl(0deg, 0%, 100%);
+}
+.card .card__content .card__desc {
+  padding-bottom: 1rem;
+}
+.card .card__content h1 {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card .card__content h1:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}
+.card .card__content p {
+  font-size: 0.938rem;
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300;
+}
+.card .card__content hr {
+  border: 0;
+  height: 1px;
+  background-color: hsl(215deg, 32%, 27%);
+  margin: 1rem 0;
+}
+.card .card__price {
+  display: flex;
+  justify-content: space-between;
+}
+.card .card__price img {
+  width: 0.625rem;
+}
+.card .card__price .card__eth {
+  display: flex;
+  align-items: center;
+}
+.card .card__price .card__eth p {
+  padding-left: 0.375rem;
+  font-weight: 600;
+  color: hsl(178deg, 100%, 50%);
+}
+.card .card__price .card__time {
+  display: flex;
+  align-items: center;
+}
+.card .card__price .card__time img {
+  width: 0.938rem;
+}
+.card .card__price .card__time p {
+  padding-left: 0.375rem;
+}
+.card .card__creator {
+  display: flex;
+  align-items: center;
+}
+.card .card__creator img {
+  width: 13%;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 1.25rem;
+}
+.card .card__creator span {
+  color: hsl(0deg, 0%, 100%);
+}
+.card .card__creator span:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}
+
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+}
+.attribution a {
+  color: hsl(178deg, 100%, 50%);
+  text-decoration: none;
+}
