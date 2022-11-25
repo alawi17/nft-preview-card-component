@@ -16,7 +16,7 @@ This is a solution to the [NFT preview component challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
