@@ -20,8 +20,8 @@ This is a solution to the [NFT preview component challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-component-using-sass-YSVcenf6mi)
+- Live Site URL: [Live Site](https://alw-nft-preview-component.netlify.app/)
 
 ## My process
 
